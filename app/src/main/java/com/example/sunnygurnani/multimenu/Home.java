@@ -233,8 +233,6 @@ public class Home extends Fragment implements LocationListener{
                         Toast.makeText(getActivity(), "Sim card not available", Toast.LENGTH_LONG).show();
                     }
 
-
-                    //abc
                     // Getting LocationManager object from System Service LOCATION_SERVICE
                     LocationManager locationManager = (LocationManager)getActivity().getSystemService(getActivity().LOCATION_SERVICE);
 
