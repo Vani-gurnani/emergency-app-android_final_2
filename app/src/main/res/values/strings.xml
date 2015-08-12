@@ -31,7 +31,7 @@
     <string name="title_activity_geolocation">Map</string>
 
     <string name="developer_profile">
-<b>Vanita Sajnani Project Lead (10160):</b>\nInternal Storage.\n\n<b>Bhupinder Kaur (11882):</b>\nDesigned the UI - Navigation Drawer, Share button, Buttons, Dialog Boxes, Profile Activity.\n\n<b>Harish (14359):</b>\nXML page for contacts, Presentation.\n\n<b>Bhanvi Sangar (10496):</b>\nFunctionality for Sending Call, Message when Help button pressed, sending safe message when safe now button is pressed.\n\n<b>Jay Patel (13550):</b>\nFlash functionality to turn on flash if needed (at night).\n\n<b>Harpal Chauhan (13197):</b>\nMaps- geolocation, Nearest hospital, Police Station, and showing map.\n\n<b>Hemanth (14869):</b>\nSensor part assigned.</string>
+<b>Vanita Sajnani Project Lead (10160):</b>\nProject Management, Architecture, Internal Storage, Sending Geolocation with SMS. \n\n<b>Bhupinder Kaur (11882):</b>\nDesigned the UI - Navigation Drawer, Share button, Buttons, Dialog Boxes, Profile Activity.\n\n<b>Harish (14359):</b>\nXML page for Contacts, Presentation.\n\n<b>Bhanvi Sangar (10496):</b>\nFunctionality for Sending Call, Message when Help button pressed, Sending safe message when Safe Now button is pressed.\n\n<b>Jay Patel (13550):</b>\nFlash functionality to turn on flash if needed (at night).\n\n<b>Harpal Chauhan (13197):</b>\nMaps- Geolocation, Nearest hospital, Police Station, and showing map.\n\n<b>Hemanth (14869):</b>\nSensor part assigned.</string>
     <string-array name="place_type">
         <item>choose</item>
         <item>airport</item>
