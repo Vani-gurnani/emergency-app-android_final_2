@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#666666"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Name"
+        android:layout_weight="1"
+        android:id="@+id/name_user1"
+        android:layout_gravity="center"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="107dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#fff8fffb" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText1"
+        android:layout_weight="3"
+        android:layout_gravity="center"
+        android:layout_alignBaseline="@+id/name_user"
+        android:layout_alignBottom="@+id/name_user"
+        android:layout_alignLeft="@+id/editText0"
+        android:layout_alignStart="@+id/editText0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Contact Number"
+        android:layout_weight="1"
+        android:id="@+id/contactnumber1"
+        android:layout_gravity="center"
+        android:layout_alignBottom="@+id/editText2"
+        android:layout_alignLeft="@+id/name_user"
+        android:layout_alignStart="@+id/name_user"
+        android:textColor="#ffffffff" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_gravity="center|right"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/editText0"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Email ID"
+        android:layout_weight="1"
+        android:id="@+id/email_id_1"
+        android:layout_gravity="center"
+        android:layout_alignBottom="@+id/editText0"
+        android:layout_alignLeft="@+id/name_user"
+        android:layout_alignStart="@+id/name_user"
+        android:textColor="#ffffffff" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editText0"
+        android:layout_weight="3"
+        android:layout_gravity="center"
+        android:layout_below="@+id/editText1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="33dp" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:id="@+id/button3"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/contactnumber1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REFERENCE CONTACT"
+        android:textColor="#000000"
+        android:id="@+id/button4"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:padding="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/email_id_1"
+        android:layout_toEndOf="@+id/email_id_1" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="more contact"
+        android:textSize="20dp"
+        android:id="@+id/button5"
+        android:layout_alignTop="@+id/button3"
+        android:layout_alignRight="@+id/button4"
+        android:layout_alignEnd="@+id/button4" />
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sunnygurnani.multimenu.FlashLight">
+
+    <!-- The main content view -->
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_homepage">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_alignEnd="@+id/button"
+            android:layout_alignRight="@+id/button"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:background="@drawable/help2" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="88dp"
+            android:layout_marginTop="25sp"
+            android:background="@drawable/rounded_button"
+            android:padding="15dp"
+            android:text="I am safe now"
+            android:textColor="#fffffffb"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="center_horizontal"
+            android:padding="15dp"
+            android:text="Make alternative communication arrangements, call 911 if needed."
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/flashButton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="right|top"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@mipmap/flash_on" />
+    </FrameLayout>
+
+</FrameLayout>
